@@ -1,0 +1,12 @@
+.meal {
+  background-color: rgb(235, 240, 245);
+  border: 2px solid red;
+  margin: 10px;
+  padding: 10px;
+}
+.meal img {
+  width: 75%;
+}
+a {
+  text-decoration: none;
+}
