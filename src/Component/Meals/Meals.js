@@ -10,8 +10,7 @@ const Meals = () => {
       .then((data) => setMeals(data.meals));
   }, []);
   return (
-    <div>
-      <h1>{meals.length}</h1>
+    <div className="meals">
       {meals.map((meal) => (
         <Meal meal={meal} key={meal.idMeal}></Meal>
       ))}

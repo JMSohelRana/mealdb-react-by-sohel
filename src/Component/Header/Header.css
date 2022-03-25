@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+nav {
+  height: 80px;
+  width: 100%;
+  background-color: rgb(33, 80, 64);
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav li {
+  display: inline-block;
+
+  line-height: 80px;
+}
+nav a {
+  color: white;
+  font-size: 18px;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  padding-right: 10px;
+  border-radius: 3px;
+}
